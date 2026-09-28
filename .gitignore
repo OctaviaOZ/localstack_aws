@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+
+# LocalStack runtime data and generated certificates
+localstack-data/
+
+# Terraform provider cache, state, plans, and local overrides
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+crash.*.log
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Local credentials
+.env
+.env.*
+!.env.example
+*.pem
