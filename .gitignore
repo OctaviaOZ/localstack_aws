@@ -23,3 +23,5 @@ override.tf.json
 .env.*
 !.env.example
 *.pem
+
+de-week-6-AWS-Foundations-and-Data-Lake/
